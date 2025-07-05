@@ -7,14 +7,14 @@ A modern, full-stack Kanban-style task management app with smart workload balanc
 
 ## Features
 
-- **Role-Based Permissions**  
+- Role-Based Permissions  
   - The assigner of a task can edit or delete it.  
   - The assignee can only change the task's status (In Progress, Done), but cannot edit task details.
 
-- **Smart Assign**  
+- Smart Assign 
   - Automatically assigns new tasks to the user with the fewest active tasks, balancing workload smartly.
 
-- **Task Editing & Conflict Resolution**  
+- Task Editing & Conflict Resolution**  
   - Edit tasks in a sleek modal.  
   - If edits conflict with server data, a user-friendly conflict resolver helps merge changes.
 
