@@ -1,7 +1,3 @@
-Of course! Here’s your **complete `README.md` file content**, ready to save as `README.md` in your project root:
-
----
-
 ````markdown
 # 📝 Task Management Web App
 
@@ -11,24 +7,24 @@ A modern, full-stack Kanban-style task management app with smart workload balanc
 
 ## 🚀 Features
 
-✅ **Role-Based Permissions**
-- The **assigner** of a task can edit or delete it.
+✅ **Role-Based Permissions**  
+- The **assigner** of a task can edit or delete it.  
 - The **assignee** can only change the task's status (*In Progress*, *Done*), but cannot edit task details.
 
-✅ **Smart Assign**
+✅ **Smart Assign**  
 - Automatically assigns new tasks to the user with the **fewest active tasks**, balancing workload smartly.
 
-✅ **Task Editing & Conflict Resolution**
-- Edit tasks in a sleek modal.
+✅ **Task Editing & Conflict Resolution**  
+- Edit tasks in a sleek modal.  
 - If edits conflict with server data, a user-friendly conflict resolver helps merge changes.
 
-✅ **JWT Authentication**
+✅ **JWT Authentication**  
 - Secure authentication and role-based access control via JSON Web Tokens.
 
-✅ **Real-Time Updates**
+✅ **Real-Time Updates**  
 - Tasks and activity logs update live across all clients with **Socket.io**.
 
-✅ **Responsive, Custom UI**
+✅ **Responsive, Custom UI**  
 - Mobile-friendly with custom CSS and smooth animations.
 
 ---
@@ -47,8 +43,8 @@ A modern, full-stack Kanban-style task management app with smart workload balanc
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/yourusername/task-board.git
-cd task-board
+git clone https://github.com/Mitanshu23DS/Weblar_intern_sample.git
+cd Weblar_intern_sample
 ````
 
 2️⃣ Install server dependencies:
@@ -60,7 +56,7 @@ npm install
 3️⃣ Install client dependencies:
 
 ```bash
-cd client0
+cd client_
 npm install
 ```
 
@@ -73,7 +69,7 @@ From the project root, you need to start both the **client** and **server**:
 * **Start Client**
 
   ```bash
-  cd client
+  cd client_
   npm start
   ```
 
@@ -83,7 +79,7 @@ From the project root, you need to start both the **client** and **server**:
   nodemon server.js
   ```
 
-  ⚠️ Ensure MongoDB is running locally, or update your connection string in `server.js`.
+⚠️ **Important:** Ensure MongoDB is running locally, or update your MongoDB connection string in `server.js`.
 
 ---
 
@@ -107,13 +103,8 @@ From the project root, you need to start both the **client** and **server**:
 
 * [Portfolio](https://gentle-profiterole-dda1b8.netlify.app/)
 * [LinkedIn](https://linkedin.com)
-* [GitHub](https://github.com/yourusername)
+* [GitHub](https://github.com/Mitanshu23DS)
 
 ---
 
-```
-
----
-
-Would you like a version with installation badges (npm, license, etc.) or contribution guidelines?
 ```
